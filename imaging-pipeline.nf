@@ -31,7 +31,6 @@ workflow {
 
 nextflow.enable.dsl=2
 
-// Define a process to run the BIDS Validator command
 process bidsValidator {
     container "bids/validator"
     
@@ -45,7 +44,6 @@ process bidsValidator {
 }
 
 workflow {
-    // Specify the path to the BIDS dataset directory
     inputDir = "/Users/mahi021/BIDS_validator/"  
 }
 
