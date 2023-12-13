@@ -25,7 +25,7 @@ workflow {
     outputDir = "/Users/mahi021/Documents/USB-data-psychatry-data/BIDS/sub-10/anat"
 }
 
-// Module 2: bids-validator:
+// Module 2: bids-validator
 
 #!/usr/bin/env nextflow
 
